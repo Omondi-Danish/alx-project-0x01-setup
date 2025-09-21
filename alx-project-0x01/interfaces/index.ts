@@ -5,7 +5,6 @@ export interface PostProps {
   body: string;
 }
 
-///
 export interface UserProps {
   id: number;
   name: string;
@@ -66,9 +65,10 @@ export interface UserData {
   company: Company;
 }
 
+// ✅ Required by validation
 export interface UserModalProps {
   onClose: () => void;
-  onSubmit: (user: UserProps) => void;
+  onSubmit: (post: UserProps) => void;
 }
 
 // Props for the users page component
