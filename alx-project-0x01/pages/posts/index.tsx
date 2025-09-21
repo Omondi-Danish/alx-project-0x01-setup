@@ -2,7 +2,7 @@ import PostCard from "@/components/common/PostCard";
 import PostModal from "@/components/common/PostModal";
 import Header from "@/components/layout/Header";
 import { PostData, PostProps, PostsPageProps } from "@/interfaces";
-import {PostProps};
+import { PostProps };
 import { useState } from "react";
 
 const Posts: React.FC<PostsPageProps> = ({ posts }) => {
